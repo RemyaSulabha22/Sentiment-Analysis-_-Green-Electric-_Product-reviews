@@ -9,32 +9,6 @@ Customer sentiment can range from pleased or loving to neutral or angry. No matt
 
 <center><img src="https://raw.githubusercontent.com/insaid2018/Domain_Case_Studies/master/Retail/Images/sentiment.jpg" width="600px"></center>
 
-# **Table of Contents**
-
-1. [Introduction](#Section1)<br>
-2. [Problem Statement](#Section2)<br>
-3. [Importing Libraries](#Section3)<br>
-  - 3.1 [Installing Libraries](#Section301)<br>
-  - 3.2 [Importing Libraries](#Section302)<br>
-4. [Data Loading and Dataset Description](#Section4)<br>
-  - 4.1 [Data Loading](#Section401)<br>
-  - 4.2 [Dataset Description](#Section403)<br>
-  - 4.3 [Pandas Profiling before Data Processing](#Section404)<br>
-5. [Data Pre-Processing](#Section5)<br>
-  - 5.1 [Assign String DataType to Review Body](#Section501)<br>
-  - 5.2 [Cleaning the Reviews](#Section502)<br>
-  - 5.3 [Calculating Polarity and Subjectivity of Reviews](#Section503)<br>
-  - 5.4 [Pandas Profiling after Data Processing](#Section504)<br>
-6. [Exploratory Data Analysis](#Section6)<br>
-7. [Post Data Processing & Analysis](#Section7)<br>
-  - 7.1 [Removing Redundant Columns](#Section701)<br>
-  - 7.2 [Removing Samples Having Subjectivity Less Than 0.3](#Section702)<br>
-  - 7.3 [Creating Sentiment Column](#Section703)<br>
-  - 7.4 [Data Splitting](#Section704)<br>
-8. [Model Development & Evaluation](#Section8)<br>
-    - 8.1 [Building Machine Learning Model](#Section801)<br>
-9. [Conclusion](#Section9)<br>
-
 
 Problem Statement 
 - **Analyzing customer sentiment** helps give **insight** into how **customers feel** about your brand. 
